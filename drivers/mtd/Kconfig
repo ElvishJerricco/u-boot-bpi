@@ -282,6 +282,8 @@ source "drivers/mtd/ubi/Kconfig"
 
 source "drivers/mtd/nvmxip/Kconfig"
 
+source "drivers/mtd/nmbm/Kconfig"
+
 endif
 
 endmenu
