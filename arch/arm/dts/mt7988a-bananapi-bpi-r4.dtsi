@@ -155,6 +155,23 @@
 	};
 };
 
+
+&pcie0 {
+	status = "okay";
+};
+
+&pcie1 {
+	status = "okay";
+};
+
+&pcie2 {
+	//status = "okay";
+};
+
+&pcie3 {
+	status = "okay";
+};
+
 &pwm {
 	pinctrl-names = "default";
 	pinctrl-0 = <&pwm_pins>;
