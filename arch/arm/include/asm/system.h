@@ -658,6 +658,7 @@ void mmu_set_region_dcache_behaviour(phys_addr_t start, size_t size,
  * Return: 0 if OK
  */
 int noncached_init(void);
+void noncached_set_region(void);
 
 phys_addr_t noncached_alloc(size_t size, size_t align);
 #endif /* CONFIG_SYS_NONCACHED_MEMORY */
